@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.yandextv"
+version="0.0.1"
+name="Yandex TV Plugin"
+provider-name="marodere">
+<requires>
+  <import addon="xbmc.python" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Yandex TV Plugin</summary>
+  <description lang="en_GB">Watch TV streams from Yandex main page.</description>
+  <disclaimer lang="en_GB">Strongly experimental and unofficial!</disclaimer>
+</extension>
+</addon>
