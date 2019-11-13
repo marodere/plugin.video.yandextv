@@ -1,18 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.yandextv"
-version="0.0.1"
-name="Yandex TV Plugin"
-provider-name="anonymous">
-<requires>
-  <import addon="xbmc.python" version="2.14.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Yandex TV Plugin</summary>
-  <description lang="en_GB">Watch TV streams from Yandex main page.</description>
-  <disclaimer lang="en_GB">Strongly experimental and unofficial!</disclaimer>
-  <news>Initial version</news>
-</extension>
+<?xml version="1.0" encoding="UTF-8" ?>
+<addon
+    id="plugin.video.yandextv"
+    version="0.0.2"
+    name="Yandex TV Plugin"
+    provider-name="anonymous">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Yandex TV Plugin</summary>
+        <description lang="en_GB">Watch TV streams from Yandex main page.</description>
+        <disclaimer lang="en_GB">Strongly experimental and unofficial!</disclaimer>
+        <news>With cached channels list</news>
+        <language>en</language>
+        <platform>linux</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>https://github.com/marodere/plugin.video.yandextv</website>
+        <source>https://github.com/marodere/plugin.video.yandextv</source>
+        <email>marodere@up4k.org, mutespirit@yandex.ru</email>
+    </extension>
 </addon>
